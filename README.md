@@ -1,1 +1,85 @@
-# 2016web1-5
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>web1-5　ゲーム</title>
+  </head>
+  <body>
+  <h1>ゲームジャンル</h1>
+  <p>好きなゲームジャンル（順序なし）</p>
+  <ul>
+      <li>RPG</li>
+      <li>アクション</li>
+      <li>ホラー</li>
+      <li>FPS</li>
+      <li>パズル</li>
+  </ul>
+  <p>好きなゲームジャンル（順序あり）</p>  
+  <ol>
+      <li>RPG</li>
+      <li>アクション</li>
+      <li>ホラー</li>
+      <li>FPS</li>
+      <li>パズル</li>
+  </ol>
+  <h2>ゲームソフト</h2>
+  <p>所持しているソフト</p>
+  <dl>
+      <dt>任天堂64</dt><dd>6本</dd>
+      <dt>ゲームキューブ</dt><dd>8本</dd>
+      <dt>PS3</dt><dd>4本</dd>
+      <dt>Wii</dt><dd>12本</dd>
+      <dt>3DS</dt><dd>10本</dd>
+      <dt>PSvita</dt><dd>9本</dd>
+  </dl>
+  
+  <h1>説明</h1>
+  <p>小さい頃からたくさんのゲームを遊んできました。<br><strong>それを少し紹介したいと思います。</strong></p>
+  
+  <p><video src="IMG_0185.MOV" width="320" controls autoplay>サポートしていません。</video></p>
+  <p><audio src="sample.mp4" width="320" controls autoplay>サポートしていません。</audio></p>
+
+  <h1>表組み</h1>
+  <p>所持しているソフト</p> 
+      <table>
+          <tr><th>ハード名</th><th>数</th><th>単位</th></tr>
+          <tr><td>任天堂64</td><td>6</td><td>本</td></tr>
+          <tr><td>ゲームキューブ</td><td>8</td><td>本</td></tr>
+          <tr><td>PS3</td><td>4</td><td>本</td></tr>
+          <tr><td>Wii</td><td>12</td><td>本</td></tr>
+          <tr><td>3DS</td><td>10</td><td>本</td></tr>
+          <tr><td>PSvita</td><td>9</td><td>本</td></tr>
+      </table>
+      
+      <h1>フォーム</h1>
+          <h2>アンケート</h2>
+          <form id="top" action="#" method="post">
+          <p><input type="text" name="input1"></p>
+          <p><input type="submit" value="送信">
+             <input type="reset" value="取り消し"> </p>
+          </form>
+          
+          <form id="top" action="#" method="post">
+            <p>テキストボックス<input type="text"         name="input1"></p>
+          </form>
+          
+          <p>好きなゲームは
+              <input type="radio" name="input11" value="rpg" checked>RPG
+              <input type="radio" name="input11" value="horror">ホラー
+              <input type="radio" name="input11" value="puzzle">パズル
+          </p>
+          <p>好きなゲームは
+              <input type="checkbox" name="input11" value="rpg" checked>RPG
+              <input type="checkbox" name="input11" value="horror">ホラー
+              <input type="checkbox" name="input11" value="puzzle">パズル
+          </p>
+          <p>好きなゲームは
+          <select name="input13">
+              <option value="rpg">RPG
+              <option value="horror">ホラー
+              <option value="puzzle">パズル
+          </select></p>        
+          
+
+  </body>
+</html>
